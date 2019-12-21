@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TwitchToolkit.Incidents.StoreIncidentVariables>
+    <defName>EnemyArcaneRaid</defName>
+    <label>enemy arcane raid</label>
+    <abbreviation>enemyarcaneraid</abbreviation>
+    <cost>1500</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitRimOfMagicPatch.IncidentHelper_ArcaneEnemyRaid</incidentHelper>
+    <karmaType>Bad</karmaType>
+    <minPointsToFire>1500</minPointsToFire>
+    <maxWager>10000</maxWager>
+    <syntax>!buy enemyarcaneraid 1500</syntax>
+    <variables>1</variables>
+  </TwitchToolkit.Incidents.StoreIncidentVariables>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>ArcaneCampQuest</defName>
+    <label>arcane camp quest</label>
+    <abbreviation>arcanecampquest</abbreviation>
+    <cost>2000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitRimOfMagicPatch.IncidentHelper_ArcaneCampQuest</incidentHelper>
+    <karmaType>Neutral</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>MagicCaravanRequest</defName>
+    <label>magic caravan request</label>
+    <abbreviation>magiccaravanrequest</abbreviation>
+    <cost>2000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitRimOfMagicPatch.IncidentHelper_MagicCaravanRequest</incidentHelper>
+    <karmaType>Neutral</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>Toolkit - AlienVsPredator</identifier>
+  <version>1.0.0</version>
+  <dependencies>
+    <li>TwitchToolkit</li>
+    <li>ARimWorldofMagic</li>
+  </dependencies>
+  <incompatibleWith />
+  <loadAfter>
+    <li>ARimWorldofMagic</li>
+    <li>TwitchToolkit</li>
+  </loadAfter>
+</Manifest>
