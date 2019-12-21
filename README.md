@@ -1,4 +1,4 @@
-# TwitchToolkitAvPPatch
+# TwitchToolkitRimOfMagicPatch
 
 This is a mod for the game Rimworld:
 https://store.steampowered.com/app/294100/RimWorld/
