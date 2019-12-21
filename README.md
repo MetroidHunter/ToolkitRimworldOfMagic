@@ -11,6 +11,15 @@ With the Twitch Toolkit mod:
 https://steamcommunity.com/workshop/filedetails/?id=1718525787
 https://github.com/Codingale/twitchtookit
 
-* !buyevent arcanecampquest
-* !buyevent magiccaravanrequest
-* !buyevent enemyarcaneraid 5000
+* Good
+   * !buyevent manasurge
+* Neutral
+    * !buyevent arcanecampquest
+    * !buyevent magiccaravanrequest
+* Bad
+    * !buyevent enemyarcaneraid 1000
+    * !buyevent manadrain
+    * !buyevent manasickness
+* DOOM
+    * !buyevent wanderinglich
+    * !buyevent elementalassault
