@@ -14,6 +14,16 @@
     <variables>1</variables>
   </TwitchToolkit.Incidents.StoreIncidentVariables>
 
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>EnemyArcaneRaid</defName>
+    <label>enemy arcane raid</label>
+    <weight>3</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Bad</eventType>
+    <eventCategory>Invasion</eventCategory>
+    <votingHelper>ToolkitRimOfMagicPatch.VoteHelper_ArcaneEnemyRaid</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
   <TwitchToolkit.Incidents.StoreIncidentSimple>
     <defName>ArcaneCampQuest</defName>
     <label>arcane camp quest</label>
@@ -24,7 +34,17 @@
     <karmaType>Neutral</karmaType>
   </TwitchToolkit.Incidents.StoreIncidentSimple>
 
-  <TwitchToolkit.Incidents.StoreIncidentSimple>
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>ArcaneCampQuest</defName>
+    <label>arcane camp quest</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Environment</eventCategory>
+    <votingHelper>ToolkitRimOfMagicPatch.VoteHelper_ArcaneCampQuest</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+    <TwitchToolkit.Incidents.StoreIncidentSimple>
     <defName>MagicCaravanRequest</defName>
     <label>magic caravan request</label>
     <abbreviation>magiccaravanrequest</abbreviation>
@@ -33,5 +53,115 @@
     <incidentHelper>ToolkitRimOfMagicPatch.IncidentHelper_MagicCaravanRequest</incidentHelper>
     <karmaType>Neutral</karmaType>
   </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>MagicCaravanRequest</defName>
+    <label>magic caravan request</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Neutral</eventType>
+    <eventCategory>Environment</eventCategory>
+    <votingHelper>ToolkitRimOfMagicPatch.VoteHelper_MagicCaravanRequest</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>ManaDrain</defName>
+    <label>mana drain</label>
+    <abbreviation>manadrain</abbreviation>
+    <cost>2000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitRimOfMagicPatch.IncidentHelper_ManaDrain</incidentHelper>
+    <karmaType>Bad</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>ManaDrain</defName>
+    <label>mana drain</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Bad</eventType>
+    <eventCategory>Mind</eventCategory>
+    <votingHelper>ToolkitRimOfMagicPatch.VoteHelper_ManaDrain</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+    <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>ManaSurge</defName>
+    <label>mana surge</label>
+    <abbreviation>manasurge</abbreviation>
+    <cost>2000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitRimOfMagicPatch.IncidentHelper_ManaSurge</incidentHelper>
+    <karmaType>Good</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>ManaSurge</defName>
+    <label>mana surge</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Good</eventType>
+    <eventCategory>Mind</eventCategory>
+    <votingHelper>ToolkitRimOfMagicPatch.VoteHelper_ManaSurge</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+    <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>ManaSickness</defName>
+    <label>mana sickness</label>
+    <abbreviation>manasickness</abbreviation>
+    <cost>2000</cost>
+    <eventCap>2</eventCap>
+    <incidentHelper>ToolkitRimOfMagicPatch.IncidentHelper_Disease_ManaSickness</incidentHelper>
+    <karmaType>Bad</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>ManaSickness</defName>
+    <label>mana sickness</label>
+    <weight>2</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Bad</eventType>
+    <eventCategory>Disease</eventCategory>
+    <votingHelper>ToolkitRimOfMagicPatch.VoteHelper_Disease_ManaSickness</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+      <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>ElementalAssault</defName>
+    <label>elemental assault</label>
+    <abbreviation>elementalassault</abbreviation>
+    <cost>5000</cost>
+    <eventCap>1</eventCap>
+    <incidentHelper>ToolkitRimOfMagicPatch.IncidentHelper_ElementalAssault</incidentHelper>
+    <karmaType>Doom</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>ManaSickness</defName>
+    <label>mana sickness</label>
+    <weight>4</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Bad</eventType>
+    <eventCategory>Invasion</eventCategory>
+    <votingHelper>ToolkitRimOfMagicPatch.VoteHelper_ElementalAssault</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
+
+  <TwitchToolkit.Incidents.StoreIncidentSimple>
+    <defName>WanderingLich</defName>
+    <label>wandering lich</label>
+    <abbreviation>wanderinglich</abbreviation>
+    <cost>10000</cost>
+    <eventCap>1</eventCap>
+    <incidentHelper>ToolkitRimOfMagicPatch.IncidentHelper_WanderingLich</incidentHelper>
+    <karmaType>Doom</karmaType>
+  </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+  <TwitchToolkit.Votes.VotingIncident>
+    <defName>WanderingLich</defName>
+    <label>wandering lich</label>
+    <weight>5</weight>
+    <storyteller>ToryTalker</storyteller>
+    <eventType>Bad</eventType>
+    <eventCategory>Invasion</eventCategory>
+    <votingHelper>ToolkitRimOfMagicPatch.VoteHelper_WanderingLich</votingHelper>
+  </TwitchToolkit.Votes.VotingIncident>
 
 </Defs>

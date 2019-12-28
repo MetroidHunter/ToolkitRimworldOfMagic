@@ -1,4 +1,5 @@
-﻿using Verse;
+﻿using ToolkitPatchLib;
+using Verse;
 
 namespace ToolkitRimOfMagicPatch
 {
@@ -6,6 +7,7 @@ namespace ToolkitRimOfMagicPatch
     {
         public ToolkitRimOfMagicPatch(ModContentPack content) : base(content)
         {
+            Logger.LOGGERNAME = "TROM";
         }
 
         public override string SettingsCategory() => "Toolkit RimOfMagic Patch";
