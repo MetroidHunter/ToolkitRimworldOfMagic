@@ -2,6 +2,7 @@
 using TorannMagic;
 using TorannMagic.Conditions;
 using ToolkitPatchLib;
+using Verse;
 
 namespace ToolkitRimOfMagicPatch
 {
@@ -18,7 +19,7 @@ namespace ToolkitRimOfMagicPatch
 
     public class IncidentHelper_ArcaneCampQuest : NormalIncidentHelper<IncidentWorker_QuestArcaneCamp>
     {
-        public IncidentHelper_ArcaneCampQuest() : base(IncidentCategoryDefOf.WorldQuest, IncidentDef.Named("QuestArcaneCamp")) { }
+        public IncidentHelper_ArcaneCampQuest() : base(IncidentCategoryDefOf.WorldQuest, IncidentDef.Named("QuestArcaneCamp"), Find.World) { }
     }
 
     public class VoteHelper_ArcaneCampQuest : NormalIncidentHelper<IncidentWorker_QuestArcaneCamp>

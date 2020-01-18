@@ -7,7 +7,7 @@ namespace ToolkitRimOfMagicPatch
     {
         public ToolkitRimOfMagicPatch(ModContentPack content) : base(content)
         {
-            Logger.LOGGERNAME = "TROM";
+            ToolkitPatchLogger.LOGGERNAME = "TROM";
         }
 
         public override string SettingsCategory() => "Toolkit RimOfMagic Patch";
